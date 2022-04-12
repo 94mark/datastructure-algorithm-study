@@ -2,35 +2,38 @@ using System;
 
 namespace Algorithm
 {
-    static void Main(string[] args)
+    class Program
     {
-        Console.CursorVisible = false;
-
-        const int WAIT_TICK = 1000 / 30;
-        const char CIRCLE = '\u25cf';
-
-        int lastTick = 0;
-
-        while(true)
+        static void Main(string[] args)
         {
-            #region 프레임관리
-            int currentTick = System.Environment.TickCount;
+            Console.CursorVisible = false;
 
-            if (currentTick - lastTick < WAIT_TICK)
-                continue;
-            lastTick = currentTick;
-            #endregion
+            const int WAIT_TICK = 1000 / 30;
+            const char CIRCLE = '\u25cf';
 
-            Console.SetCursorPosition(0, 0);
+            int lastTick = 0;
 
-            for(int i = 0l i < 25; i++)
+            while (true)
             {
-                for (int i 0; i < 25; i++)
+                #region 프레임관리
+                int currentTick = System.Environment.TickCount;
+
+                if (currentTick - lastTick < WAIT_TICK)
+                    continue;
+                lastTick = currentTick;
+                #endregion
+
+                Console.SetCursorPosition(0, 0);
+
+                for (int i = 0; i < 25; i++)
                 {
-                    Console.ForegroundColor = ConsoleColor.Green;
-                    Console.Write(CIRCLE);
+                    for (int j = 0; j < 25; j++)
+                    {
+                        Console.ForegroundColor = ConsoleColor.Green;
+                        Console.Write(CIRCLE);
+                    }
+                    Console.WriteLine();
                 }
-                Console.WriteLine();
             }
         }
     }
