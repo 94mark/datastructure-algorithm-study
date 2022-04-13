@@ -2,8 +2,7 @@
 자료구조 및 알고리즘 공부
 
 ## Binary Tree 미로 생성 알고리즘
-
-<img width="322" alt="20220413_140620" src="https://user-images.githubusercontent.com/90877724/163107767-2ecb59ae-faee-4b08-b181-e1179784183c.png">
+<img width="301" alt="20220413_140620" src="https://user-images.githubusercontent.com/90877724/163108674-7fa7898b-2d54-4ffa-a4c5-fbd186953ce5.png">
 
 ### 미로 생성 단계
 - binary tree 생성 함수 구현
