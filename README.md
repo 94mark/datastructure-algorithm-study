@@ -2,7 +2,7 @@
 자료구조 및 알고리즘 공부
 
 ## BinaryTree 미로 생성 알고리즘
-<img width="301" alt="20220413_140620" src="https://user-images.githubusercontent.com/90877724/163108674-7fa7898b-2d54-4ffa-a4c5-fbd186953ce5.png">
+<img width="301" alt="20220413_140620" src="https://user-images.githubusercontent.com/90877724/163111613-efde73ac-b8cc-40e8-b746-1e9dffa4fa21.png">
 
 ### binarytree 생성 함수 로직
 ```c#
