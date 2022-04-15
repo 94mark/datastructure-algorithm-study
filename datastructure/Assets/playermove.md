@@ -136,6 +136,7 @@ public void Render()
 
 https://user-images.githubusercontent.com/90877724/163536071-90383e1e-0186-4bac-b8a2-d7fe100b532d.mp4
 
+## 플레이어 이동
 ```c#
 class Pos
     {
