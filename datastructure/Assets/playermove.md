@@ -1,6 +1,6 @@
 # 플레이어 이동
 
-https://user-images.githubusercontent.com/90877724/163527782-24fb7e91-b3ed-4f47-ad63-46a0444eb61d.mp4
+<img src = "https://user-images.githubusercontent.com/90877724/163527782-24fb7e91-b3ed-4f47-ad63-46a0444eb61d.mp4" width = "700" height = "370">
 
 ## sidewinder 로직 기반 플레이어 이동
 ```c#
