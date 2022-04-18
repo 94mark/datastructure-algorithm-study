@@ -1,5 +1,6 @@
 # DFS
 ## Depth First Search, 깊이 우선 탐색
+### Graph
 ```c#
 int[,] adj = new int[6, 6]
         {
@@ -21,7 +22,7 @@ int[,] adj = new int[6, 6]
             new List<int>(){ 4 }
         };
 ```
-
+### dfs
 ```c#
 bool[] visited = new bool[6];
         // 1) now부터 방문
