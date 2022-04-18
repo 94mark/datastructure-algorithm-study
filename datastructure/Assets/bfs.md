@@ -1,5 +1,5 @@
 # BFS
-## BFS(Breadth First Serarch 너비 우선 탐색) - 최단거리 길찾기
+## BFS(Breadth First Sech 너비 우선 탐색) - 최단거리 길찾기
 ### Graph
 ```c#
 int[,] adj = new int[6, 6]
