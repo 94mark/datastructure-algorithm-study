@@ -5,6 +5,7 @@ class PriorityQueue
     {
         List<int> _heap = new List<int>();
 
+        //O(logN)
         public void Push(int data)
         {
             // 힙의 맨 끝에 새로운 데이터 삽입
@@ -29,6 +30,7 @@ class PriorityQueue
             }
         }
 
+        //O(logN)
         public int Pop()
         {
             // 반환할 데이터 저장
