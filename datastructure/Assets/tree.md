@@ -42,6 +42,7 @@ static void PrintTree(TreeNode<string> root)
             // 재귀
             foreach (TreeNode<string> child in root.Children)
                 PrintTree(child);
+        }
 ```
 
 <img width="227" alt="20220419_171501" src="https://user-images.githubusercontent.com/90877724/163959424-d9de1860-64c1-40d1-b3bd-db402c002a74.png">
