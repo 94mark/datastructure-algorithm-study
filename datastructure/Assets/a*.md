@@ -211,3 +211,27 @@ void Astar()
             _points.Reverse();
         }
 ```
+
+## 반복 실행
+```c#
+public void Update(int deltaTick)
+        {
+            // 1회 실행
+            //if (_lastIndex >= _points.Count)
+            //    return;
+
+            // 최신화되어 계속 실행
+            if(_lastIndex >= _points.Count)
+            {
+                _lastIndex = 0;
+                _points.Clear();
+                _board.Initialize(_board.Size, this);
+                Initialize(1, 1, _board);
+            }
+        }
+```
+https://user-images.githubusercontent.com/90877724/164193368-3aa377fc-b259-4301-be1e-cfaf9fb73b9b.mp4
+
+
+
+
