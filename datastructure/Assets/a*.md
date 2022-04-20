@@ -1,4 +1,7 @@
 # A* 알고리즘
+
+<img width="302" alt="20220420_175154" src="https://user-images.githubusercontent.com/90877724/164190173-9916b0ef-33ef-4dbb-9e45-912639aa66b5.png">
+
 ## 상하좌우 이동
 ```c#
 struct PQNode : IComparable<PQNode>
